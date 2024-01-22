@@ -1,0 +1,8 @@
+@mixin button-style($size, $color: green) {
+  background-color: $color;
+
+  @if $size == "medium" {
+    width: 50%;
+  }
+
+}
