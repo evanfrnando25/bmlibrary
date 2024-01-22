@@ -186,7 +186,7 @@ Modal with using image-modal
 Modal with function
 
 ```vue
-<BaModal
+<BmModal
   v-if="isModal"
   @closeModal="closeModal"
   size="small"
@@ -199,7 +199,7 @@ Modal with function
             <template #imageModal>
                 <img src="@/assets/img/ilustration-modal.svg" />
             </template>
- </BaModal>
+ </BmModal>
 ```
 
 ### MULTIPLE SELECT
