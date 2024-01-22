@@ -20,6 +20,16 @@
     "vue": "^3.3.11",
     "vue-types": "^5.1.1"
   },
+   "exports": {
+    ".": {
+      "import": "./dist/bmlibrary.es.js",
+      "require": "./dist/bmlibrary.umd.js"
+    },
+    "./dist/my-library-vue-ts.css": {
+      "import": "./dist/bmlibrary.css",
+      "require": "./dist/bmlibrary.css"
+    }
+  },
   "devDependencies": {
     "@iconify/vue": "^4.1.1",
     "@types/node": "^20.11.1",
